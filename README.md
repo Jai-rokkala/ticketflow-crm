@@ -1,0 +1,134 @@
+# TicketFlow CRM
+
+Modern customer support ticket management system built using React, FastAPI, SQLite, and Tailwind CSS.
+
+---
+
+## Features
+
+* Create support tickets
+* View all tickets
+* Search tickets instantly
+* Filter tickets by status
+* View ticket details
+* Update ticket status
+* Responsive and clean UI
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* Tailwind CSS
+* Axios
+* React Router DOM
+
+### Backend
+
+* FastAPI
+* SQLAlchemy
+* SQLite
+* Pydantic
+
+---
+
+## Project Structure
+
+```bash
+ticketflow-crm/
+│
+├── backend/
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── crud.py
+│   ├── database.py
+│   ├── requirements.txt
+│   └── routes/
+│
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
+```
+
+---
+
+## API Endpoints
+
+| Method | Endpoint             | Description          |
+| ------ | -------------------- | -------------------- |
+| POST   | /tickets/            | Create ticket        |
+| GET    | /tickets/            | Get all tickets      |
+| GET    | /tickets/{ticket_id} | Get single ticket    |
+| PUT    | /tickets/{ticket_id} | Update ticket status |
+
+---
+
+## Backend Setup
+
+```bash
+cd backend
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+```
+
+Backend runs on:
+
+```bash
+http://127.0.0.1:8000
+```
+
+Swagger Docs:
+
+```bash
+http://127.0.0.1:8000/docs
+```
+
+---
+
+## Frontend Setup
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+Frontend runs on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## Deployment
+
+### Frontend
+
+Deployed on Vercel
+
+### Backend
+
+Deployed on Railway
+
+---
+
+## Future Improvements
+
+* Authentication system
+* Ticket priority levels
+* Pagination
+* Dashboard analytics
+* Email notifications
+
