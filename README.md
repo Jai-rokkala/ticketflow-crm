@@ -4,6 +4,22 @@ Modern customer support ticket management system built using React, FastAPI, SQL
 
 ---
 
+## Live Deployment
+
+### Frontend
+
+https://ticketflow-crm.vercel.app/
+
+### Backend API
+
+https://ticketflow-crm-production.up.railway.app/
+
+### Swagger API Docs
+
+https://ticketflow-crm-production.up.railway.app/docs
+
+---
+
 ## Features
 
 * Create support tickets
@@ -37,7 +53,7 @@ Modern customer support ticket management system built using React, FastAPI, SQL
 
 ## Project Structure
 
-```bash
+```bash id="brj9qx"
 ticketflow-crm/
 │
 ├── backend/
@@ -72,7 +88,7 @@ ticketflow-crm/
 
 ## Backend Setup
 
-```bash
+```bash id="6fy2uy"
 cd backend
 
 pip install -r requirements.txt
@@ -82,13 +98,13 @@ uvicorn main:app --reload
 
 Backend runs on:
 
-```bash
+```bash id="3s5iyk"
 http://127.0.0.1:8000
 ```
 
 Swagger Docs:
 
-```bash
+```bash id="ccq8jq"
 http://127.0.0.1:8000/docs
 ```
 
@@ -96,7 +112,7 @@ http://127.0.0.1:8000/docs
 
 ## Frontend Setup
 
-```bash
+```bash id="8a7qtw"
 cd frontend
 
 npm install
@@ -106,7 +122,7 @@ npm run dev
 
 Frontend runs on:
 
-```bash
+```bash id="ghjk4f"
 http://localhost:5173
 ```
 
@@ -132,3 +148,8 @@ Deployed on Railway
 * Dashboard analytics
 * Email notifications
 
+---
+
+## Author
+
+Jai Rokkala
